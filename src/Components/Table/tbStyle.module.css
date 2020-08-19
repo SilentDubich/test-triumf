@@ -1,0 +1,161 @@
+.display__flex {
+    display: flex;
+}
+.display__flexCenter {
+    justify-content: center;
+    align-items: center;
+}
+
+.container_table__width {
+    width: 80vw;
+}
+
+.container_table__marginAuto {
+    margin: 0 auto;
+}
+
+.table_items__width {
+    width: 10vw;
+}
+
+.table_items__text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.table_input__width {
+    width: 15vw;
+}
+
+.table_input__decor {
+    border: none;
+    border-radius: .25rem;
+    box-shadow: 0 0 .2rem #606060;
+    text-align: center;
+    font-size: 2rem;
+    /*padding: .5rem;*/
+}
+
+.table_settings__width {
+    width: 10vw;
+}
+
+.table_settings__decor {
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+.table_settings__decor:hover {
+    cursor: pointer;
+}
+
+
+.table_colorPicker__tap {
+    width: 1em;
+    height: .5em;
+    position: relative;
+    left: -10%;
+    top: 15%;
+    box-shadow: 0 0 .2rem #606060;
+    cursor: pointer;
+}
+.table_colorPickerAddForm__tap {
+    width: 1em;
+    height: .5em;
+    position: relative;
+    left: -10%;
+    top: 30%;
+    box-shadow: 0 0 .2rem #606060;
+    cursor: pointer;
+}
+
+.table_colorPicker__width {
+    width: 25% !important;
+    height: 12.5% !important;
+}
+
+.table_settingsItems__width {
+    font-size: 2rem;
+}
+
+.table_button__decor {
+    font-size: 1rem;
+    border: none;
+    background: #5a368b;
+    color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 0 .2rem #606060;
+    cursor: pointer;
+}
+.table_button__padding {
+    padding: .25rem .5rem;
+}
+
+.table_err__decor {
+    margin: 1rem 0;
+    text-align: center;
+}
+.table_err__font {
+    font-size: 1rem;
+    padding: .25rem;
+    border-radius: .25rem;
+    box-shadow: 0 0 .2rem #606060;
+}
+
+@media screen and (max-width: 900px)  {
+    .table_items__text {
+        font-size: 1rem;
+    }
+    .table_input__decor {
+        border: none;
+        border-radius: .25rem;
+        box-shadow: 0 0 .2rem #606060;
+        text-align: center;
+        font-size: .75rem;
+    }
+    .table_colorPicker__tap {
+        width: .5rem;
+        height: .25rem;
+        position: relative;
+        left: -15%;
+        top: 25%;
+        box-shadow: 0 0 .2rem #606060;
+    }
+    .table_colorPickerAddForm__tap {
+        width: .5rem;
+        height: .25rem;
+        position: relative;
+        left: -15%;
+        top: 48%;
+        box-shadow: 0 0 .2rem #606060;
+    }
+    .table_button__padding {
+        padding: .125rem .25rem;
+    }
+    .table_settingsItems__width {
+        font-size: 1rem;
+    }
+    .table_colorPicker__width {
+        width: 25% !important;
+        height: 12.5% !important;
+    }
+    .table_button__decor {
+        font-size: .45rem;
+        border: none;
+        background: #5a368b;
+        color: #fff;
+        border-radius: .25rem;
+        box-shadow: 0 0 .2rem #606060;
+    }
+    .table_err__decor {
+        margin: .5rem 0;
+        text-align: center;
+    }
+    .table_err__font {
+        font-size: .5rem;
+        padding: .25rem;
+        border-radius: .25rem;
+        box-shadow: 0 0 .2rem #606060;
+    }
+}
